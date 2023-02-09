@@ -45,13 +45,12 @@ The pest-parser GitHub organization hosts several repositories.
 The main one is naturally [pest](https://github.com/pest-parser/pest)
 where you can find the source code of main pest-related crates.
 
-The [pest.rs](https://pest.rs) website is spanned across three repositories:
-* [pest-parser.github.io](https://github.com/pest-parser/pest-parser.github.io)
-hosts the built static website using GitHub Pages.
+The [pest.rs](https://pest.rs) website is spanned across two repositories:
 * [book](https://github.com/pest-parser/book) contains the source code
 for building the [book on pest.rs](https://pest.rs/book).
 * [site](https://github.com/pest-parser/site) contains the source code
-of the [fiddle editor on pest.rs](https://pest.rs/#editor).
+for bundling the book with the rest of the website source code (both
+the playground and the homepage)
 
 There are two tooling-related pest crates:
 * [pest-fmt](https://github.com/pest-parser/pest-fmt) can help to format
