@@ -60,12 +60,14 @@ when converting pest parse trees to abstract syntax trees
 (BTW the [pest_consume](https://crates.io/crates/pest_consume) crate can also
 help with the parse tree traversing boilerplate).
 
-There are two editor plugins for pest:
+There are editor plugins for pest:
+
 * [pest.vim](https://github.com/pest-parser/pest.vim) can do syntax highlighting
 of pest grammars in Vim.
-* [intellij-pest](https://github.com/pest-parser/intellij-pest) can do syntax higlighting,
+* [intellij-pest](https://github.com/pest-parser/intellij-pest) can do syntax highlighting,
 completion, refactoring (renaming, extracting rules, inlining) in IntelliJ editors, such as
 IDEA or CLion, of pest grammars in both external files and in ones embedded in Rust.
+* [vscode-pest](https://marketplace.visualstudio.com/items?itemName=pest.pest-ide-tools) Pest support for VS Code, via the LSP.
 
 Finally, [pest3](https://github.com/pest-parser/pest3) contains an unfinished effort
 of pest 3.0 that is stalled for now. You can follow the [future progress on this milestone here](https://github.com/pest-parser/pest/milestone/6): feel free to comment on its issues
