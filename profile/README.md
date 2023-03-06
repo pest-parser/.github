@@ -54,7 +54,7 @@ the playground and the homepage)
 
 There are two tooling-related pest crates:
 * [pest-fmt](https://github.com/pest-parser/pest-fmt) can help to format
-pest grammars (you can try it in this cool [online version](https://sbeckeriv.github.io/pest_format/)).
+pest grammars (try it [online](https://pest.rs/#editor)).
 * [ast](https://github.com/pest-parser/ast) can help to reduce boilerplate
 when converting pest parse trees to abstract syntax trees
 (BTW the [pest_consume](https://crates.io/crates/pest_consume) crate can also
