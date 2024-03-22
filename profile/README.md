@@ -59,6 +59,7 @@ pest grammars (try it [online](https://pest.rs/#editor)).
 when converting pest parse trees to abstract syntax trees
 (BTW the [pest_consume](https://crates.io/crates/pest_consume) crate can also
 help with the parse tree traversing boilerplate).
+* [tree-sitter-pest](https://github.com/pest-parser/tree-sitter-pest) Pest grammar for the tree-sitter.
 
 There are editor plugins for pest:
 
@@ -68,6 +69,7 @@ of pest grammars in Vim.
 completion, refactoring (renaming, extracting rules, inlining) in IntelliJ editors, such as
 IDEA or CLion, of pest grammars in both external files and in ones embedded in Rust.
 * [vscode-pest](https://marketplace.visualstudio.com/items?itemName=pest.pest-ide-tools) Pest support for VS Code, via the LSP.
+* [zed-pest](https://github.com/pest-parser/zed-pest) Pest support for Zed.
 
 Finally, [pest3](https://github.com/pest-parser/pest3) contains an unfinished effort
 of pest 3.0 that is stalled for now. You can follow the [future progress on this milestone here](https://github.com/pest-parser/pest/milestone/6): feel free to comment on its issues
